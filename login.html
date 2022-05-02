@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="1reset.css">
+    <link rel="icon" href="images/sharu_favicon.png">
+    <link rel="icon" type="images/png" href="images/sharu_favicon.png"/>
+    <link rel="shortcut icon" type="images/png" href="Link to the image"/>
+    
+</head>
+<body>
+
+    <header>
+        <nav class="navgroup">
+            <ul class="page_link">
+                <li > <a href="index.php"> Home </a></li>
+                <li> <a href="about.html"> About Me </a></li>
+                <li> <a href="skill.html"> Skills </a></li>
+                <li > <a href="portfolio.html"> Portfolio </a></li>
+                <li> <a href="contact.html"> Contact </a></li>
+                <li > <a href="blog.php"> Blog </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login_container">
+
+        <h1 id="form_title">Welcome</h1>
+
+        <img id="login_img" src="images/login_logo.png" alt="profile_pic" width="100em">
+
+        <form name="loginform" action="login.php" method="POST">
+            <p>
+                <input name="email" type="email" id="email" placeholder="Email" required>       
+            </p>
+
+            <p>
+                <input name="password" type="password" id="password" placeholder="Password" required>   
+            </p>
+
+            <p>
+                <input type="submit" value="Login">
+            </p>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

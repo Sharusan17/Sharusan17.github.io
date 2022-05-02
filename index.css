@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(246, 248, 252);
+}
+
+.page_link{
+    margin-top: 20pt;
+    text-align: center;
+}
+
+.page_link li{
+    display: inline;
+    font-size: 12pt;
+    padding-right: 15pt;
+}
+
+.login_link{
+    float: right;  
+    margin-right: 2em;
+    margin-left: -12em;
+}
+
+.login_link li{
+    font-weight: 700;    
+    display: inline;
+    font-size: 12pt;
+    padding-right: 15pt;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: rgb(94, 93, 97);
+}
+    
+/* visited link */
+a:visited {
+    color: rgb(94, 93, 97);
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: rgb(94, 93, 97);
+}
+
+#thispage a:visited{
+    color: rgb(58, 20, 172);
+}
+
+
+#name{
+    font-size: 40pt;
+    color: rgb(25, 33, 65);
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+#slogan{
+    margin-top: 5pt;
+    padding-left: 5pt;
+    font-size: 10pt;
+    font-family: monospace;    
+}
+
+.introduce{
+    position: absolute;
+    top: 14.5em;
+    left: 16em;
+}
+
+#profile_img{
+    float: right;
+    position: relative;
+    top: 5em;
+    right: 6em;
+    border: 0.5px solid lightgray;
+}
+
+#background_img{
+    z-index: -1;
+    float: right;
+    position: absolute;
+    top: 23em;
+    right: 5em;
+    width: 35em;
+    height: 12em;
+    background-color: rgb(255,25,63);
+}
+
+.exploremore{
+    position: absolute;
+    top: 27em;
+    left: 17em;
+}
+
+
+#play_logo{
+    float: right;
+    position: relative;
+    top: -0.4em;
+}
+
+#play_link:link{
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.social_link{
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+}
+
+.social_link li{
+    display: inline;
+    padding-right: 15pt;
+}
