@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(246, 248, 252);
+}
+
+.page_link{
+    margin-top: 20pt;
+    text-align: center;
+}
+
+.page_link li{
+    display: inline;
+    font-size: 12pt;
+    padding-right: 15pt;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: rgb(94, 93, 97);
+}
+    
+/* visited link */
+a:visited {
+    color: rgb(94, 93, 97);
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: rgb(94, 93, 97);
+}
+
+#thispage a:visited{
+    color: rgb(58, 20, 172);
+}
+
+.post_container{
+    border: 1px solid rgb(226, 229, 235);
+    border-radius: 10px;
+    width: 45%;
+    height: 28em;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+    padding-bottom: 5em;
+}
+
+#post_title{
+    margin-left: 1em;
+    font-family: monospace;
+}
+
+#title{
+    border: 1px solid rgb(228, 227, 235);
+    border-radius: 8px;
+    background-color: rgb(247,246,255);
+    width: 90%;
+    height: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 2em;    
+}
+
+#message_text{
+    font-family: monospace;
+    margin-left: 2em;
+}
+
+#messagebox{
+    border: 1px solid rgb(228, 227, 235);
+    border-radius: 8px;
+    background-color: rgb(247,246,255);
+    width: 90%;
+    height: 15em;
+    margin-left: 2em;
+}
+
+#title:hover, #messagebox:hover{
+    border: 1px solid teal;
+}
+
+::placeholder{
+    padding-left: 1em;
+}
+
+.postbtn{
+    margin-top: 2em;
+    margin-left: 9em;
+}
+
+input[type=submit] , input[type=reset] {
+    height: 4em; 
+    width: 11em;
+    border-radius: 10pt;
+    color: white;
+    background-color: rgb(86,43,235);
+    border: 1px solid rgb(228, 227, 235);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: black;
+}
+
+
+.social_link{
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+}
+
+.social_link li{
+    display: inline;
+    padding-right: 15pt;
+}

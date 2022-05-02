@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(246, 248, 252);
+}
+
+.page_link{
+    margin-top: 20pt;
+    text-align: center;
+}
+
+.page_link li{
+    display: inline;
+    font-size: 12pt;
+    padding-right: 15pt;
+}
+
+.login_link{
+    float: right;  
+    margin-right: 2em;
+    margin-left: -12em;
+}
+
+.login_link li{
+    font-weight: 700;    
+    display: inline;
+    font-size: 12pt;
+    padding-right: 15pt;
+}
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: rgb(94, 93, 97);
+}
+    
+/* visited link */
+a:visited {
+    color: rgb(94, 93, 97);
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: rgb(94, 93, 97);
+}
+
+#thispage a:visited{
+    color: rgb(58, 20, 172);
+}
+
+#center_title{
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3em;
+}
+
+.portfolio_container{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    margin-left: 1em;
+}  
+
+.column img{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid rgb(226, 229, 235);
+    border-radius: 10px;
+}
+.column figcaption{
+    font-size: 12pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+
+.social_link li{
+    display: inline;
+    padding-right: 15pt;
+}
